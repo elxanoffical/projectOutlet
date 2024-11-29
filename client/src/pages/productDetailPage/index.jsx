@@ -7,7 +7,7 @@ const ProductDetailPage = () => {
   const navigate = useNavigate();
   const [showModal, setShowModal] = useState(false);
   const [counter, setCounter] = useState(1);
-  const [selectedSize, setSelectedSize] = useState("S"); //
+  const [selectedSize, setSelectedSize] = useState("S"); // baslanqic deyer
 
   const product = products.find((item) => item.id == Number(id));
 
@@ -55,7 +55,7 @@ const ProductDetailPage = () => {
             src={product.img}
           />
         </div>
-
+        
 
         <div className=" w-2/4 flex flex-col gap-5 items-start">
           <h2 className="text-white text-3xl font-semibold tracking-wider">
